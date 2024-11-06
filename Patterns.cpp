@@ -40,3 +40,24 @@ int n = 3;
         }
         cout<<endl;
     }
+
+
+// print character A-Z
+int n = 6; 
+    int num = 1;
+    char ch = 'A';
+    int cch= ch;
+
+    for(int i = 0; i < n; i++){
+        for(int j = 1; j<=n; j++){
+            cout<<ch;
+            ch = ch + 1;
+            if (ch > 90) {
+                break;
+            }
+        }
+        cout<<endl;
+        if (ch > 90) {
+            break;
+        }
+    }
